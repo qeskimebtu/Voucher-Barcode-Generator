@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+.logo-wrapper {
+    margin-bottom: 8px;
+}
+
+.logo {
+    height: 60px;
+    object-fit: contain;
+}
+
+.title {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    padding: 20px 24px;
+    width: 380px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input[type="number"],
+select {
+    padding: 6px 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.radio-row {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.amount-rows {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.amount-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.amount-label {
+    width: 60px; /* თანხა ფიქსირებული სიგანის */
+    font-weight: 600;
+}
+
+.amount-qty {
+    width: 80px; /* რაოდენობა გახდება ნახევარი */
+    padding: 6px 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.amount-label {
+    font-weight: 500;
+}
+
+.amount-qty {
+    width: 110px;
+}
+
+#generateBtn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background: #1d4ed8;
+}
